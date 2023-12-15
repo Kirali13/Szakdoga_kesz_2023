@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">B$MART</string>
+    <string name="bsmart_title">B$MART</string>
+    <string name="bsmart_login_text">BEJELENTKEZÉS</string>
+    <string name="email">Email cím</string>
+    <string name="pw">Jelszó</string>
+    <string name="belepes">Belépés</string>
+    <string name="register">Regisztráció</string>
+    <string name="bsmart_register_text">REGISZTRÁCIÓ</string>
+    <string name="email_confirm">Email cím megerősítése</string>
+    <string name="pw_confirm">Jelszó megerősítése</string>
+    <string name="create_tranzakcio">Tranzakció létrehozás</string>
+    <string name="tr_name">Tranzakció megnevezése</string>
+    <string name="tr_amount">Összege</string>
+    <string name="tr_type">Típusa</string>
+    <string name="tr_date">Dátum</string>
+    <string name="tr_create">Létrehozás</string>
+    <string name="tr_currency">Pénznem</string>
+    <string name="tr_group">Jellege</string>
+    <string name="tr_rec_name">Blokk elnevezése</string>
+    <string name="tr_rec_upload">Blokk feltöltése</string>
+    <string name="tr_rec_supplier">Számla kiállító</string>
+    <string name="kartyas">Kártyás</string>
+    <string name="kps">Készpénzes</string>
+    <string name="tr_rec_capture">Fénykép feltöltése</string>
+    <string name="tr_btn_update">Szerkesztés</string>
+</resources>

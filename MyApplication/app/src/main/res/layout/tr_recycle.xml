@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgdollars">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/bsmart_title"
+        android:textColor="#4CAF50"
+        android:textSize="75sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/logout"
+        android:layout_marginStart="370dp"
+        />
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/textView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/filterButton1"
+        android:src="@drawable/plus" />
+    <ImageView
+        android:id="@+id/receipt"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/textView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/plus"
+        android:src="@drawable/receipt" />
+
+    <ImageView
+        android:id="@+id/chart"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/textView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/receipt"
+        android:src="@drawable/chart" />
+
+    <Button
+        android:id="@+id/filterButton"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:textSize="10dp"
+        android:backgroundTint="#4CAF50"
+        android:onClick="filter"
+        android:text="@string/kartyas"
+        android:textColor="@color/black" />
+    <Button
+        android:id="@+id/filterButton1"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginStart="125dp"
+        android:textSize="10dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/kps"
+        android:textColor="@color/black" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/filterButton"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

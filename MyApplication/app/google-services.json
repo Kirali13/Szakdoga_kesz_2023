@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "731142007106",
+    "project_id": "besmart-954ab",
+    "storage_bucket": "besmart-954ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:731142007106:android:105e5743f2d54b762e40db",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaHhOyuWk1ForAy0BLNMPk35c77z8teyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

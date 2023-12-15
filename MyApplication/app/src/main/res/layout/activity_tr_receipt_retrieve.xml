@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgdollars">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/bsmart_title"
+        android:textColor="#4CAF50"
+        android:textSize="75sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginEnd="320dp"
+        android:src="@drawable/home"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/textView"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/plus" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/plus"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>
